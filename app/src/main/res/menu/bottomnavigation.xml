@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_location"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:title="@string/location"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_shoppers"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="@string/shoppers"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_yourlist"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="@string/your_list"
+        app:showAsAction="ifRoom" />
+
+</menu>

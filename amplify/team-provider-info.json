@@ -1,0 +1,15 @@
+{
+  "rapidmart": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifystarter-rapidmart-181947-authRole",
+      "UnauthRoleArn": "arn:aws:iam::513193325379:role/amplify-amplifystarter-rapidmart-181947-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::513193325379:role/amplify-amplifystarter-rapidmart-181947-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-amplifystarter-rapidmart-181947-deployment",
+      "UnauthRoleName": "amplify-amplifystarter-rapidmart-181947-unauthRole",
+      "StackName": "amplify-amplifystarter-rapidmart-181947",
+      "StackId": "arn:aws:cloudformation:us-east-2:513193325379:stack/amplify-amplifystarter-rapidmart-181947/b3ddc450-0ffd-11eb-a1d7-066f8b7a8772",
+      "AmplifyAppId": "dy7qmx6q68g17"
+    }
+  }
+}

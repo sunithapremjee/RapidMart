@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:weightSum="100">
+
+    <ImageView
+        android:id="@+id/image_viewyourpdf"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:maxHeight="200dp"
+        android:layout_weight="40"
+        android:src="@android:drawable/ic_menu_today"
+        />
+
+
+    <TextView
+        android:id="@+id/txt_name_yourpdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:textSize="15dp"
+        android:paddingLeft="10dp" />
+
+
+</LinearLayout>

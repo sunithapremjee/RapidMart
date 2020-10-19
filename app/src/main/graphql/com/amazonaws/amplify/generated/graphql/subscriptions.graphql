@@ -1,0 +1,43 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateItem {
+  onCreateItem {
+    id
+    user
+    title
+    description
+    pdfdoc
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateItem {
+  onUpdateItem {
+    id
+    user
+    title
+    description
+    pdfdoc
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteItem {
+  onDeleteItem {
+    id
+    user
+    title
+    description
+    pdfdoc
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
