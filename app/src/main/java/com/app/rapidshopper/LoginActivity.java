@@ -13,6 +13,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.RadioButton;
 import android.widget.Toast;
 import androidx.annotation.StringRes;
 import androidx.appcompat.app.AppCompatActivity;
@@ -55,6 +56,26 @@ public class LoginActivity extends AppCompatActivity {
                 },
                 error -> Log.e("LoginActivity", error.toString())
         );*/
+    }
+    public void onRadioButtonClicked(View view) {
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
+
+        // Check which radio button was clicked
+        switch(view.getId()) {
+            case R.id.radio_business:
+                if (checked)
+
+                    break;
+            case R.id.radio_assistant:
+                if (checked)
+
+                    break;
+            case R.id.radio_customer:
+                if (checked)
+
+                    break;
+        }
     }
     public void startMainActivity() {
 
